@@ -32,7 +32,7 @@ if AT_BASE_ON_UART
             int "the uart flow control for AT port, the range is [0, 3]"
             help
                 0: flow control is disabled; 1: enable RTS; 2: enable CTS; 3: enable RTS and CTS
-            default 0
+            default 0 
             range 0 3
     endmenu
 
